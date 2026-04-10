@@ -18,3 +18,4 @@ Em qualquer subdiretório do team-os-produtos, invoque um skill com:
 | `/okr-draft` | `skills/okr-draft.md` | Rascunha OKRs para o próximo ciclo com KRs mensuráveis |
 | `/design-brief` | `skills/design-brief.md` | Gera briefing de design a partir de um problema de produto |
 | `/weekly-digest` | `skills/weekly-digest.md` | Digest executivo semanal para comunicação com diretoria |
+| `/governance-prep` | `skills/governance-prep.md` | Prepara material para cerimônias estratégicas (Planejamento Anual, Revisão Semestral, Cross-Pilar Alignment) |

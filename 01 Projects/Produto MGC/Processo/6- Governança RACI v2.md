@@ -20,19 +20,24 @@ Voltar para [[Processo de Produto v2]]
 ---
 
 > [!note] Legenda RACI
-> **R** = Responsible (executa) · **A** = Accountable (decide) · **C** = Consulted · **I** = Informed
+> **R** = Responsible (executa) · **A** = Accountable (decide) · **C** = Consulted · **I** = Informed · **F** = Facilitator (orquestra o processo, não decide)
+
+> [!tip] Sobre a função Governança
+> **Governança** é a função que garante que as cerimônias estratégicas acontecem — preparando materiais, facilitando sessões e documentando decisões. Opera exclusivamente na camada Head + GPM + C-Level. Contexto operacional em `Team OS - MGC/governance/`.
 
 ---
 
 ## Decisões Estratégicas
 
-| Decisão | Head de Produto | GPM (Líder do Pilar) | PM de Domínio | Tech Lead | Design Lead | Stakeholder |
-|---------|:---:|:---:|:---:|:---:|:---:|:---:|
-| Visão de Produto | **A** | **R** | C | C | C | I |
-| Estratégia & Big Rocks | **A** | **R** | C | C | C | C |
-| OKRs Anuais | **A** | **R** | **R** | C | C | I |
-| Alocação cross-pilar | **A/R** | **C** | — | C | — | I |
-| Revisão Semestral / Avaliação Topologia | **A** | **R** | C | C | C | I |
+| Decisão | Head de Produto | GPM (Líder do Pilar) | PM de Domínio | Tech Lead | Design Lead | Stakeholder | Governança |
+|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Visão de Produto | **A** | **R** | C | C | C | I | **F** |
+| Estratégia & Big Rocks | **A** | **R** | C | C | C | C | **F** |
+| OKRs Anuais | **A** | **R** | **R** | C | C | I | **F** |
+| Alocação cross-pilar | **A/R** | **C** | — | C | — | I | **F** |
+| Revisão Semestral / Avaliação Topologia | **A** | **R** | C | C | C | I | **F** |
+| Cross-Pilar Alignment (Q) | C | **R** | — | — | — | — | **F** |
+| OKR Portfolio Health | **A** | C | — | — | — | — | **R** |
 
 ---
 

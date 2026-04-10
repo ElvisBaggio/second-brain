@@ -2,9 +2,10 @@
 
 ## Doc Index
 
-- `pilar_a/CLAUDE.md` - Contexto, PM e área de atuação do Pilar A.
-- `pilar_b/CLAUDE.md` - Contexto, PM e área de atuação do Pilar B.
-- `pilar_c/CLAUDE.md` - Contexto, PM e área de atuação do Pilar C.
+- `pilar_a/CLAUDE.md` - Fundação / IaaS: VM, Storage, Network, LB, IAM.
+- `pilar_b/CLAUDE.md` - PaaS / DevX & AI: K8s, DBaaS, CLI/SDK, Magma, AI/Inference.
+- `pilar_c/CLAUDE.md` - Customer Products: Console, onboarding, portal B2B.
+- `pilar_d/CLAUDE.md` - Commerce / O2C: Billing, Metering, Order-to-Cash.
 
 ## Key context
 

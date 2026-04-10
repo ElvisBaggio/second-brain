@@ -22,10 +22,10 @@ cssclasses:
 ## 👥 Topologia de Times (Quatro Pilares)
 
 A organização técnica de Produto MGC está estruturada através da topologia de pilares, focando em jornadas com sustentação de escopos especialistas:
-1. **Fundação / IaaS**: Serviços de núcleo e infraestrutura como VM, Storage, Network+LB e IAM.
-2. **PaaS / Customer Products**: Plataforma core como Console/Aquisição, orquestração corporativa (K8s) e DBaaS.
-3. **Commerce / O2C**: A esteira de Billing, Metering e Order-to-Cash.
-4. **DevX / AI / Inovação**: Serviços de alavancas e CLI/SDK, Magma, Movestax e AI/Inference.
+1. **Fundação / IaaS**: Serviços de núcleo e infraestrutura: VM, Storage, Network, Load Balancer e IAM.
+2. **PaaS / DevX & AI**: Plataforma e developer experience: orquestração corporativa (K8s), DBaaS, CLI/SDK, Magma, Movestax e AI/Inference.
+3. **Customer Products**: Produtos voltados ao cliente: Console/Aquisição, onboarding, experiência corporativa (B2B) e portal de self-service.
+4. **Commerce / O2C**: Esteira comercial e financeira: Billing, Metering e Order-to-Cash.
 
 *Governança de Topologia:* Mapeamentos de skills e allocs de PD/PM (como apontados nos gaps de maturidade e vagas) são contínuos. O GPM atua no intermédio entre o direcional anual e a priorização do Squad.
 

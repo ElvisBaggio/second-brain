@@ -15,5 +15,14 @@ Cada ciclo tem seu próprio arquivo. Convenção de nome: `YYYY-QN.md` (trimestr
 **Última atualização:** YYYY-MM-DD
 ```
 
+## Formato de referência
+
+Veja `[[OKR Q2-2026 - Tribo A]]` no Produto MGC como exemplo de OKR por pilar bem estruturado (objetivo + KRs com baseline e target + progresso semanal).
+
+## Rastreamento cross-pilar
+
+Para visão consolidada de saúde de OKRs em todos os pilares, use `governance/okr-health.md`.
+O processo de definição de OKRs está em `[[3- Ciclo Trimestral]]`.
+
 ## Ciclos arquivados
 (Nenhum ainda — crie o primeiro ciclo)
