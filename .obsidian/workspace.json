@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "bdaa389d9605a0f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "06332034c2395988",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0788e8f9dd93779",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GTD + Claude — Como usar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GTD + Claude — Como usar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a13be84f28cf0d1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "70241d3e155cb43a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ef1d5b27f42701c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "7de3bfd7d86a1ffd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "056f931dd83d4b83",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e6c68d026ae7cc0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f62d3c4cd674990a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b26d06985179e5f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 Projects/Produto MGC/Processo/6- Governança RACI v2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 6- Governança RACI v2"
+            }
+          },
+          {
+            "id": "e85aa221968fb300",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "6809eded7ca321e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "bcc15ee72475a026",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "9e83a79def369705",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          },
+          {
+            "id": "cb139177d4b20257",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "GTD + Claude — Como usar.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Notas de rodapé"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-kanban:Create new board": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Abrir a troca rápida": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "graph:Abrir visualização em gráfico": false,
+      "zk-prefixer:Criar nova nota única": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
+      "canvas:Criar novo canvas": false,
+      "bases:Criar nova base": false,
+      "markdown-importer:Abrir importador Markdown": false,
+      "templates:Inserir modelo": false
+    }
+  },
+  "active": "d0788e8f9dd93779",
+  "lastOpenFiles": [
+    "01 Projects/Produto MGC/Processo de Produto v2.md",
+    "Templates/llm-wiki-setup-prompt.md",
+    "Raw",
+    "01 Projects/Geoexpert/INDEX.md",
+    "01 Projects/Produto MGC/INDEX.md",
+    "04 Archive/Apple Notes/Fala sobre o Jhow e a mudança para o novo jhow.md",
+    "04 Archive/Apple Notes/COHEN.md",
+    "04 Archive/Apple Notes/Ciro, trazendo um ponto aqui que não me deixou dormir ontem..md",
+    "01 Projects/Geoexpert/Zmedv - Reunião.md",
+    "02 Areas/Trabalho/MGC/INDEX.md",
+    "02 Areas/Trabalho/MGC/MBR 2025.07.md",
+    "01 Projects/Produto MGC/Processo/6- Governança RACI v2.md",
+    "01 Projects/Produto MGC/Processo de Produto.md",
+    "01 Projects/Produto MGC/Processo/2- Revisão Semestral.md",
+    "01 Projects/Produto MGC/Processo/3- Ciclo Trimestral.md",
+    "01 Projects/Produto MGC/Processo/1- Planejamento Anual.md",
+    "01 Projects/Produto MGC/Processo/6- Governança RACI.md",
+    "01 Projects/Produto MGC/Processo/2- Revisão Semestral v2.md",
+    "01 Projects/Produto MGC/Processo/1- Planejamento Anual v2.md",
+    "CLAUDE.md",
+    "GTD + Claude — Como usar.md",
+    "02 Areas/Trabalho/Dashboard.md",
+    "02 Areas/Trabalho/Debora - Designer.md",
+    "Templates/1:1.md",
+    "Templates/Projeto.md",
+    "Templates/Daily Note.md",
+    "02 Areas/Trabalho/Alguns aprendizados que tivemos na entrega de uma jornada de CX. São….md",
+    "04 Archive/Apple Notes/Imagens/27a1-fe0f@2x.png",
+    "Produto MGC/Bases/Iniciativas Tracker.base",
+    "Produto MGC/Bases/Big Rocks Tracker.base",
+    "Produto MGC/Bases/OKRs Tracker.base",
+    "Produto MGC/OKRs",
+    "Produto MGC/Iniciativas",
+    "Produto MGC/Big Rocks",
+    "Produto MGC/Bases",
+    "Produto MGC/Templates",
+    "Produto MGC/Processo"
+  ]
+}

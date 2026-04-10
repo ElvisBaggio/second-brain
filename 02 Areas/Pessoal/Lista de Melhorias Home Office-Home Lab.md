@@ -1,0 +1,9 @@
+- [ ] Cadeira Ergonômica (Dt3 Ergonomie/ Herman Miller / Confy)
+- [ ] Tampo de madeira maciça
+- [ ] Apoio de monitor elevado
+- [ ] Apoio de speakers
+- [ ] Sofá-cama (180 m x 90)
+- [ ] Painéis Acústicos
+- [ ] Pegboard novo
+- [ ] Monitor 4k
+- [x] Macbook ou Mac mini

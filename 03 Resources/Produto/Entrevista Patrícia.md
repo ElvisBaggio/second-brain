@@ -1,0 +1,134 @@
+#Roteiro-Entrevistas #recrutamento #Cayena 
+
+
+- Formada de Sistema de informação
+- Meio de pagamentos em 2018
+	- Analista de requisitos
+- PO na Conductor
+
+
+Tem uma boa bagagem
+- Comunicação boa
+- Muito foco na entrega
+- Experiencia em riscos e banking
+- Foco no aprendizado, muita maturidade
+
+
+Antifraudes:
+- A IA começou a trazer os insights 
+	- Olhou para os dados
+	- Proativa em olhar o problema
+		- Identificou a oportunidade e evitou fraudes
+- Muito conhecimento em integração com APIs
+	- Começa pelo porque e foca na entrega Rápido
+- Conseguiu negociar com os stakeholders com base em testes e dados
+
+- Métricas: Falso positivo / falso negativo
+	- Vai a fundo, fala com o usuário.
+
+- Inconformismo
+	- Questionou o “sucesso” do produto
+ 
+
+
+- Ganhava 17500 CLT
+- 1200 Caju
+- Plano de Saúde
+
+## **Bloco 1: Comportamental (Colaboração, Comunicação, Stakeholders, Resiliência)**
+
+**Objetivo:** Avaliar as habilidades comportamentais do candidato – sua capacidade de colaborar com diferentes equipes, comunicar-se de forma eficaz, gerenciar stakeholders e demonstrar resiliência diante de desafios e falhas.
+
+### ***Conte sobre um projeto em que você teve que colaborar com várias equipes ou departamentos. Como você gerenciou a comunicação e alinhou os diferentes stakeholders?***
+- **Boa resposta (exemplo):** “No lançamento de uma ferramenta interna, trabalhei com os times de Desenvolvimento, Suporte e Vendas. Para alinhar todos, criei atualizações semanais compartilhadas, realizei **reuniões conjuntas** e defini claramente os responsáveis por cada parte. Dessa forma, todos sabiam o andamento e podiam contribuir ou adaptar-se conforme necessário, o que evitou retrabalho e garantiu uma entrega coordenada.”
+- **Má resposta (exemplo):** “Eu mandei um e-mail para todo mundo com o que precisava ser feito e segui com o projeto. Se cada um fizer sua parte, não vejo necessidade de tantas reuniões ou alinhamentos.” (Resposta vaga, sem demonstrar proatividade na comunicação ou colaboração, indicando possível falta de alinhamento com a equipe.)
+
+
+
+### ***Fale sobre uma situação em que houve um conflito ou desacordo com um stakeholder importante. Como você lidou com isso?***
+- **Boa resposta (exemplo):** “Em um projeto de marketplace, o time de Vendas queria priorizar um recurso que o time de Produto não considerava viável naquele momento. Eu convoquei uma reunião individual com o diretor de Vendas para entender a urgência dele e expliquei, com dados, o impacto e o esforço envolvidos. Propus uma alternativa de incluir uma versão simplificada do recurso agora e planejar melhorias para o próximo trimestre. Ele concordou com a solução intermediária e mantivemos um bom relacionamento. Aprendi que ouvir ativamente e buscar um meio-termo é fundamental para resolver conflitos.”
+- **Má resposta (exemplo):** “Já tive discussões sérias com stakeholders que não entendiam minha visão. Quando discordam de mim, eu insisto porque sou o PM e sei o que é melhor. Em um caso específico, acabei fazendo do meu jeito apesar do desconforto do outro departamento.” (Indica inflexibilidade e falta de habilidade de resolução colaborativa de conflitos.)
+
+### ***Dê um exemplo de um momento em que você enfrentou um fracasso ou um grande obstáculo em um projeto de produto. Como você reagiu e o que aprendeu com essa experiência?***
+- **Boa resposta (exemplo):** “No ano passado, lancei uma atualização de plataforma que acabou não atingindo os resultados esperados – os usuários quase não utilizavam o novo recurso. Eu reuni o time para uma retrospectiva franca, analisei feedbacks dos usuários e descobri que não havíamos entendido bem a necessidade inicialmente. Comuniquei aos stakeholders o que deu errado e apresentei um plano de ação para corrigir o curso. Redefinimos as premissas do produto e, em uma nova versão, atingimos o engajamento desejado. Esse episódio me ensinou a importância de validar hipóteses com usuários antes do lançamento e a ser transparente sobre falhas, usando-as como aprendizado.”
+- **Má resposta (exemplo):** “Teve um projeto que fracassou porque o time de engenharia atrasou muito as entregas, então não deu certo. Fiquei bem chateado na época, mas acontece.” (Além de não assumir responsabilidade, a resposta não demonstra aprendizado nem atitude proativa para enfrentar o obstáculo.)
+
+### ***Como você lida com solicitações de última hora ou mudanças de prioridade vindas de stakeholders durante um projeto?***
+- **Boa resposta (exemplo):** “Quando surgem solicitações de última hora, primeiro avalio a criticidade. Por exemplo, em um projeto recente, um stakeholder interno pediu uma mudança de escopo duas semanas antes da entrega. Eu analisei o impacto junto com o time técnico e vi que implementar de imediato comprometeria a qualidade. Conversei com o stakeholder explicando os trade-offs e sugeri inserir a mudança na próxima release, após o lançamento inicial. Documentei a decisão e ajustei as expectativas de todos. Assim, mantivemos o cronograma e a qualidade, e o stakeholder entendeu o porquê da espera.”
+- **Má resposta (exemplo):** “Eu sempre tento atender na hora o que me pedem. Já aconteceu de mudar o escopo bem no final do projeto; ficou meio corrido e o time teve que virar algumas noites e fins de semana direto para entregar. A qualidade não foi das melhores, mas pelo menos atendi à solicitação.” (Mostra falta de gestão de prioridades e indica que cede à pressão sem avaliar impacto no time ou na qualidade.)
+
+
+## Bloco 2: Product Sense (Senso de Produto – Solução de Problemas, Experiência do Usuário, Priorização de Valor)
+
+**Objetivo:** Avaliar a capacidade do candidato de identificar problemas de produto e propor boas soluções, demonstrando sensibilidade à experiência do usuário e habilidade de priorizar pelo valor entregue. Aqui buscamos entender seu **senso de produto** – isto é, sua intuição e raciocínio para construir produtos úteis e atraentes.
+
+### ***Conte sobre um produto ou funcionalidade que você ajudou a desenvolver e que resolveu um problema importante para os usuários. Como você identificou o problema e definiu a solução?***
+- **Boa resposta (exemplo):** “No meu último projeto, os usuários estavam abandonando o processo de compra na nossa plataforma mobile. Analisei os dados de funil e identifiquei que a etapa de cadastro era muito longa. Para solucionar, sugeri implementar login social e simplificar o formulário de cadastro de cinco para três campos essenciais. Antes de desenvolver, validei a ideia com alguns usuários e, após o lançamento, vimos um aumento de 20% na conclusão de cadastros. Essa solução partiu da dor do usuário e trouxe resultado claro.”
+- **Má resposta (exemplo):** “Lancei um recurso novo no aplicativo porque achei que seria interessante, mas não tenho certeza se era um problema dos usuários. Não checamos muito depois também.” (Não demonstra identificação clara de problema nem preocupação em medir resultado para o usuário.)
+
+
+### ***Como você aborda a priorização de novas funcionalidades ou melhorias em um produto? Que fatores você considera ao decidir o que deve ser desenvolvido primeiro?***
+- **Boa resposta (exemplo):** “Costumo avaliar a relação **impacto vs. esforço** e o valor para o usuário e para o negócio. Por exemplo, quando gerenciei um produto interno para vários departamentos, listei todas as solicitações de features e, junto com o time, estimei o esforço de cada uma. Em seguida, pontuamos o impacto: quantos usuários seriam beneficiados e quanto valor aquilo agregaria ao fluxo de trabalho. Assim, priorizamos primeiro uma melhoria que afetava todos os funcionários (alto impacto), em vez de outra que atenderia apenas um setor específico. Também levo em conta urgência (alguma dependência externa ou prazo estratégico) e alinhamento com a visão do produto.”
+- **Má resposta (exemplo):** “Eu geralmente atendo primeiro às demandas do departamento que faz mais barulho ou do diretor que pede com mais insistência. Depois vejo o restante conforme dá.” (Indica falta de critério estruturado, com priorização guiada por pressão em vez de valor ou estratégia.)
+
+### ***Imagine que você é o PM de um produto interno (uma ferramenta usada pelos funcionários da empresa) e recebeu reclamações de que o sistema é complicado e pouco intuitivo. Quais passos você tomaria para entender os problemas de UX (experiência do usuário) e melhorar esse produto?***
+- **Boa resposta (exemplo):** “Eu começaria conversando diretamente com os usuários internos para coletar feedback detalhado: o que exatamente acham confuso, em quais tarefas enfrentam dificuldade. Também observaria alguns deles usando a ferramenta (uma espécie de teste de usabilidade informal) para identificar pontos de atrito. Analisaria métricas de uso se disponíveis – por exemplo, tempo para executar certas tarefas ou quantas vezes **pediam ajuda** ao suporte. Com esses insights, eu e o time priorizaríamos melhorias focadas nos pontos críticos, talvez fazendo um redesign de **telas-chave** ou simplificando fluxos complexos. Lançaríamos as mudanças de forma incremental, buscando feedback contínuo dos funcionários para garantir que a experiência realmente melhorou.”
+- **Má resposta (exemplo):** “Se os funcionários estão achando difícil, provavelmente é falta de treinamento. Eu mandaria um manual ou um e-mail explicando como usar o sistema. Se ainda reclamarem, talvez pensaria em mudar alguma coisa mais pra frente, mas não dá para alterar o produto toda hora.” (Revela pouca empatia com o usuário e falta de urgência em melhorar a usabilidade, colocando a culpa no usuário em vez de buscar aprimorar o design.)
+
+### ***Como você equilibra as necessidades do usuário com os objetivos do negócio ao pensar em melhorias ou novos recursos de produto?***
+- **Boa resposta (exemplo):** “Acredito que um bom PM deve achar o ponto de equilíbrio entre o que gera valor para o usuário e o que traz resultado para o negócio. Posso citar um caso: nossos clientes pediam insistentemente uma ferramenta avançada de relatório (valor para o usuário), mas desenvolvê-la consumiria bastante tempo e não traria retorno financeiro imediato. Ao mesmo tempo, havia pressão por uma funcionalidade que geraria receita rápida via upsell, mas que agregaria pouco valor real ao usuário. Analisei com a equipe e optei por uma estratégia de **MVP**: entregamos primeiro uma versão básica da ferramenta de relatório, atendendo parcialmente os **usuários-chave**, enquanto adicionamos pequenos recursos pagos que aumentaram a receita gradualmente. Com isso, os usuários viram melhoria na plataforma e o negócio também ganhou. Sempre considero: há valor para o cliente? E como isso se traduz em resultado (ou aprendizado) para a empresa?”
+- **Má resposta (exemplo):** “Eu foco 100% no que o usuário pede, afinal, ‘o cliente sempre tem razão’ – a parte de objetivos de negócio o pessoal de vendas e financeiro que se virem depois.” *ou* “Eu priorizo o que dá retorno financeiro imediato, mesmo que a experiência do usuário fique aquém; no fim das contas, o importante é bater a meta da empresa.” (Respostas extremas que pendem para um lado só: nenhuma das duas demonstra capacidade de balancear usuário e negócio – a primeira ignora viabilidade e estratégia da empresa, e a segunda ignora a satisfação do usuário.)
+
+## **Bloco 3: Execução (Implementação, Trabalho com Times, Métricas, Ritmo de Entrega)**
+
+**Objetivo:** Entender a habilidade do candidato em executar e entregar resultados. Isso inclui planejar e tirar ideias do papel, trabalhar eficientemente com times multidisciplinares (tecnologia, design, etc.), fazer uso de métricas para guiar o processo e manter um ritmo de entrega saudável (equilibrando velocidade e qualidade).
+
+### ***Conte sobre um projeto de produto que você liderou do início (ideia) até o lançamento. Como você planejou a execução e colaborou com as equipes envolvidas durante esse processo?***
+- **Boa resposta (exemplo):** “Posso citar o projeto de implementação de uma nova plataforma de pagamentos interna. Desde o início, defini claramente as etapas: levantamento de requisitos com usuários-chave (colaboradores das áreas Financeira e TI), priorização do backlog e planejamento dos sprints junto com os desenvolvedores. Durante o desenvolvimento, realizei *dailies* e *reviews* a cada sprint para garantir alinhamento e visibilidade. Trabalhei lado a lado com os designers para ajustar a UI conforme feedback e mantive todos informados por meio de relatórios quinzenais para a gerência. O resultado foi que lançamos no prazo previsto e a adoção pela empresa atingiu 80% em três meses. Esse sucesso se deveu ao planejamento cuidadoso e à comunicação constante entre todas as áreas.”
+- **Má resposta (exemplo):** “Teve um projeto que deu certo na empresa, mas eu basicamente deixei a equipe de desenvolvimento tocar como achasse melhor. Não me envolvi muito nos detalhes técnicos porque confio que eles entreguem. No final deu tudo certo, mas não sei detalhar bem o processo.” (Embora confiar na equipe seja positivo, a resposta demonstra pouca visibilidade ou liderança no andamento do projeto, indicando falta de envolvimento ativo na execução.)
+
+
+### ***Como você utiliza métricas para acompanhar e impulsionar o sucesso de um produto? Dê um exemplo de uma métrica que você acompanhou de perto e de uma decisão que tomou baseada nos dados.***
+- **Boa resposta (exemplo):** “No produto que gerenciava, uma métrica crucial era o **engajamento semanal** – quantos usuários ativos por semana. Eu monitorava esse número religiosamente. Em certo momento, notei uma queda significativa no engajamento. Mergulhei nos dados e descobri que muitos usuários novos não estavam voltando após a primeira semana. Identificamos que o onboarding estava confuso. Com base nisso, implementei um tutorial interativo e melhorias no fluxo inicial. Como resultado, o engajamento semanal dos novos usuários subiu e voltou ao patamar esperado. Esse caso mostra como uso métricas (engajamento, retenção) para identificar problemas e direcionar melhorias.”
+- **Má resposta (exemplo):** “Olho as métricas básicas do produto de vez em quando, como número de acessos ou vendas, mas tomo decisões mais na intuição mesmo. Não tenho um caso específico – geralmente sei o que precisa melhorar sem precisar de tantos dados.” (Indica pouca orientação por dados. Um PM sênior deveria ser capaz de citar métricas específicas e demonstrar decisões **data-driven**.)
+
+
+### ***Descreva uma situação em que um projeto seu não saiu como o planejado – por exemplo, enfrentou um grande atraso ou precisou mudar de escopo no meio do caminho. O que deu errado e como você e sua equipe reagiram para garantir a entrega ou aprender com a experiência?***
+- **Boa resposta (exemplo):** “Trabalhei numa iniciativa de lançar um módulo novo no nosso software SaaS, com um prazo inicialmente de três meses. Na metade do caminho, percebemos que havíamos subestimado a complexidade de uma integração com sistemas legados – o desenvolvimento atrasou e não conseguiríamos cumprir a data combinada. Assim que identifiquei isso, chamei uma reunião de replanejamento com engenharia e principais stakeholders. Priorizamos as funcionalidades essenciais para entregar uma versão mínima viável no prazo original **e comuniquei de forma transparente à diretoria que as demais features viriam** numa atualização subsequente. Conseguimos lançar o núcleo do módulo no prazo, e as funcionalidades adicionais vieram um mês depois, sem grande impacto negativo nos usuários. Aprendi a sempre incluir margens para riscos no planejamento e a comunicar cedo qualquer necessidade de ajuste.”
+- **Má resposta (exemplo):** “Recentemente um projeto atrasou bastante porque surgiram problemas, mas acabei avisando a gerência só na véspera do prazo que não ia dar tempo. Foi bem tenso e não conseguimos entregar. Depois acabei deixando para lá e parti para o próximo projeto.” (Mostra falta de proatividade na gestão de riscos e comunicação deficiente. Uma resposta assim evidencia que o candidato não lidou de forma construtiva com o problema.)
+
+
+### ***Como você equilibra a necessidade de entregar resultados rápidos com a manutenção de um ritmo de trabalho saudável para a equipe? Dê um exemplo de como já lidou com prazos apertados sem comprometer a qualidade ou a motivação do time.***
+- **Boa resposta (exemplo):** “Em uma ocasião, tínhamos um prazo muito apertado para uma entrega importante exigida pela diretoria – era um novo recurso para um evento no mês seguinte. Para atender, avaliei junto com o time o que era *realisticamente* possível. Dividimos a entrega em etapas: priorizamos as funcionalidades críticas para o evento e deixamos aprimoramentos menos essenciais para uma segunda versão pós-evento. Comuniquei essa estratégia aos executivos, que concordaram. Durante o mês, protegi o time de novas solicitações e incentivei práticas saudáveis (evitando horas extras contínuas). Resultado: entregamos a tempo o que era necessário para o evento com qualidade, e o time não ficou sobrecarregado, mantendo o moral alto para continuar evoluindo o produto depois.”
+- **Má resposta (exemplo):** “Se tem prazo curto, o jeito é cobrar mais da equipe mesmo. Já tivemos projetos que **viramos noites e fins de semana** direto para entregar. A qualidade não foi das melhores, mas faz parte, depois a gente corrige os bugs. No fim, o importante é entregar dentro do prazo.” (Prioriza prazo à custa de qualidade e bem-estar da equipe, indicando falta de preocupação com a sustentabilidade da execução.)
+
+
+## **Bloco 4: Estratégia (Visão de Longo Prazo, Impacto no Negócio, Roadmap Estratégico)**
+
+**Objetivo:** Avaliar a visão estratégica do candidato em relação ao produto. Isso inclui a habilidade de definir uma visão de médio e longo prazo, alinhar o roadmap com os objetivos do negócio e considerar o impacto das decisões de produto no contexto maior da empresa e do mercado. Em suma, entender se o candidato pensa no **porquê** e **para onde** do produto, não apenas no presente imediato.
+
+**Perguntas sugeridas:**
+
+### *Como você define a visão de produto a médio e longo prazo? Conte um exemplo de uma estratégia de produto que você elaborou e como a comunicou para a equipe e stakeholders.*
+- **Boa resposta (exemplo):** “No meu cargo anterior, fui responsável por estabelecer a visão de um produto de plataforma para os dois anos seguintes. Comecei analisando as tendências de mercado e coletando feedback dos nossos principais clientes para entender onde poderíamos gerar mais valor. Identifiquei oportunidades de expansão para novos mercados e maior automatização para aumentar a escalabilidade. Com esses insights, formulei uma estratégia em três pilares (expansão de mercado, melhoria de eficiência e inovação em features baseadas em IA, por exemplo). Documentei essa visão em um roadmap estratégico e apresentei em uma reunião de planejamento anual para toda a empresa. Também fiz *workshops* com as equipes de Desenvolvimento e Design para detalhar como cada iniciativa se conectava à visão geral. Assim, todos entenderam o norte para onde estávamos indo e **por que** aquilo era importante para o negócio.”
+- **Má resposta (exemplo):** “Visão de longo prazo é difícil prever. Eu geralmente vou tocando o dia a dia e, se a diretoria passa alguma direção, aí sim ajusto o rumo. Não tenho um exemplo específico de estratégia de produto que eu mesmo criei – normalmente a estratégia já vem definida de cima.” (Mostra falta de proatividade ou capacidade de pensar estrategicamente por conta própria, esperando sempre orientações externas.)
+
+
+### ***Como você garante que o roadmap do produto esteja alinhado aos objetivos de negócio da empresa? Dê um exemplo de uma decisão de produto estratégica que gerou impacto positivo no negócio.***
+- **Boa resposta (exemplo):** “Eu sempre vinculo cada iniciativa do roadmap a algum objetivo ou KPI de negócio. Por exemplo, na empresa X, nossa meta anual era aumentar a retenção de clientes. Identifiquei que poderíamos contribuir para isso melhorando a integração do nosso produto com ferramentas que os clientes já usavam (o que aumentaria o valor e, consequentemente, a retenção). Propus inserir no roadmap uma série de integrações estratégicas com sistemas populares. Embora isso significasse postergar outras funcionalidades solicitadas, defendi a ideia mostrando dados de quantos clientes poderíamos reter a mais. Implementamos duas integrações principais e, de fato, a taxa de churn caiu no trimestre seguinte, contribuindo para a meta da empresa. Esse alinhamento claro entre roadmap e objetivos do negócio foi reconhecido pela liderança.”
+- **Má resposta (exemplo):** “Normalmente, faço o roadmap do produto com base nas ideias que temos e depois torço para que ajude nos resultados. Não costumo envolver métricas de negócio nisso – esse acompanhamento é mais com o pessoal de estratégia lá da diretoria. Meu foco é entregar features; o impacto no negócio a gente vê depois.” (Revela desconexão entre o trabalho de produto e os resultados do negócio. Espera-se que um PM sênior faça essa ponte de forma ativa.)
+
+### ***Produtos de plataforma ou marketplaces costumam ter diferentes tipos de usuários ou clientes com necessidades distintas. Como você equilibra as prioridades e necessidades desses públicos ao traçar a estratégia do produto?***
+- **Boa resposta (exemplo):** “Gerenciei um produto de marketplace que atendia tanto vendedores quanto compradores, então vivenciei bem esse equilíbrio. A chave foi entender profundamente as necessidades de **ambos os lados** e identificar onde estava o maior impacto no ecossistema. No início, percebi que sem variedade e qualidade do lado dos vendedores, os compradores perderiam interesse – então foquei em estratégias para atrair e engajar vendedores (facilitando o onboarding deles, fornecendo ferramentas eficazes de gestão de catálogo). Depois que a base de vendedores estava forte, voltei a dar mais peso às melhorias na experiência de compra (busca, recomendações, etc.). Também mantive indicadores separados para cada público (satisfação dos vendedores e NPS dos compradores, por exemplo) e revisava o roadmap trimestralmente para ajustar o foco conforme necessário. Em resumo, equilibrei as prioridades alternando a atenção entre os dois públicos e buscando iniciativas que beneficiassem o equilíbrio do marketplace como um todo.”
+- **Má resposta (exemplo):** “É muito complicado agradar dois tipos de usuários ao mesmo tempo. Eu geralmente foco no usuário final principal (por exemplo, o comprador no marketplace) e quase não considero o outro lado – afinal, algum lado vai acabar reclamando mesmo. No fim, faço o que parece melhor e não tenho um processo definido para equilibrar isso.” (Denota falta de estratégia para lidar com múltiplos públicos e visão limitada sobre o produto de plataforma como ecossistema.)
+
+### ***Conte sobre uma ocasião em que você precisou ajustar ou mudar a estratégia de produto devido a mudanças no mercado ou novas oportunidades de negócio. O que você fez e qual foi o resultado?***
+- **Boa resposta (exemplo):** “Trabalhando em um produto B2B, nos deparamos com a entrada de um novo concorrente no mercado oferecendo uma solução similar por um preço bem mais baixo. Percebemos que nossa estratégia precisaria mudar para responder a essa ameaça. Analisei com meu time e, em vez de simplesmente baixar nossos preços (o que prejudicaria a receita), decidimos focar na **diferenciação**: aceleramos o desenvolvimento de dois recursos exclusivos que já estavam no nosso plano e enfatizamos nosso suporte ao cliente superior – algo que os concorrentes não ofereciam. Ajustei o roadmap daquele semestre para priorizar esses diferenciais e comuniquei claramente aos stakeholders o porquê da mudança de foco. Como resultado, conseguimos reter nossos principais clientes e até ganhamos outros que valorizavam esses recursos e suporte, mantendo a participação de mercado apesar da nova concorrência. Essa experiência mostrou a importância de adaptar a estratégia rapidamente e de forma inteligente frente a mudanças externas.”
+- **Má resposta (exemplo):** “Em geral, mantenho o curso planejado independentemente das mudanças externas. Uma vez, houve uma grande mudança no comportamento dos usuários por causa de uma nova tecnologia, mas preferimos não mexer na nossa estratégia original. Infelizmente, perdemos terreno, mas faz parte – não dá para acertar todas.” (Indica falta de reação estratégica e aprendizado lento diante de mudanças importantes, o que é preocupante em um PM sênior.)
+
+## **Encerramento (Conclusão da Entrevista)**
+
+
+### ***Pergunta final:*** *Você tem alguma pergunta para nós ou mais algum ponto que gostaria de acrescentar antes de encerrarmos?*
+
+*Neste momento final, o candidato tem a oportunidade de tirar dúvidas sobre a empresa ou o processo, e o entrevistador pode coletar quaisquer considerações finais do candidato.*

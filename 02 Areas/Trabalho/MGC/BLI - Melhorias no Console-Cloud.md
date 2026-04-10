@@ -1,0 +1,3 @@
+- Área de notificação
+- Régua de comunicação com Cliente
+- Tom de voz
