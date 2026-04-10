@@ -184,16 +184,17 @@ At the start of every Claude Code session, before doing any work:
 
 When the human says "ingira", "processe" or drops a file in `Raw/` and asks you to process it:
 
-1. Read the source file(s) from `Raw/`
-2. Briefly discuss key takeaways (2-3 bullet points) and confirm emphasis
-3. Create a `Wiki/fontes/` page summarizing the source (type: `fonte`)
-4. Identify all concepts and entities — check `Wiki/index.md` for existing pages
-5. For new concepts/entities: create their wiki pages
-6. For existing pages: integrate new information, update `updated` and `sources` fields
-7. A single source may touch 10-15 wiki pages — that is normal and expected
-8. Update `Wiki/index.md`
-9. Append entry to `Wiki/log.md`
-10. Run `git add -A && git commit -m "ingest: [source title]"`
+1. **Check for duplicates first** — scan the `## Fontes` section of `Wiki/index.md` (already in context). If a fonte page already references this Raw file, it has been ingested — inform the human and stop.
+2. Read the source file(s) from `Raw/`
+3. Briefly discuss key takeaways (2-3 bullet points) and confirm emphasis
+4. Create a `Wiki/fontes/` page summarizing the source (type: `fonte`)
+5. Identify all concepts and entities — check `Wiki/index.md` for existing pages
+6. For new concepts/entities: create their wiki pages
+7. For existing pages: integrate new information, update `updated` and `sources` fields
+8. A single source may touch 10-15 wiki pages — that is normal and expected
+9. Update `Wiki/index.md`
+10. Append entry to `Wiki/log.md`
+11. Run `git add -A && git commit -m "ingest: [source title]"`
 
 ---
 
