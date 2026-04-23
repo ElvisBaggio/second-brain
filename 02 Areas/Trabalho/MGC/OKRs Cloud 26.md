@@ -1,5 +1,0 @@
-- Aumentar receita de clientes existente e crescer a base (foca na venda)
-- Evoluir a maturidade de Segurança da Informação e excelência operacional
-- Maximizar a rentabilidade da capacidade produtiva
-- Atrair, desenvolver e reter os melhores talentos
-- Viabilizar uma oferta de AI para inferência no Brasil

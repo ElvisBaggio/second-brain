@@ -1,0 +1,79 @@
+filters:
+  and:
+    - file.hasTag("iniciativa")
+    - file.ext == "md"
+formulas:
+  days_remaining: if(deadline, (date(deadline) - today()).days, "")
+  is_at_risk: if(deadline, date(deadline) - today() < "14d" && status != "done", false)
+properties:
+  status:
+    displayName: Status
+  quarter:
+    displayName: Quarter
+  tribo:
+    displayName: Tribo
+  big_rock:
+    displayName: Big Rock
+  pm_owner:
+    displayName: PM Owner
+  metrica:
+    displayName: Métrica
+  baseline:
+    displayName: Baseline
+  target:
+    displayName: Target
+  effort:
+    displayName: Effort
+  formula.days_remaining:
+    displayName: Dias Restantes
+views:
+  - type: table
+    name: Quarter Atual
+    filters:
+      and:
+        - status != "done"
+        - status != "killed"
+    groupBy:
+      property: tribo
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - tribo
+      - big_rock
+      - metrica
+      - effort
+      - pm_owner
+  - type: table
+    name: Por Big Rock
+    groupBy:
+      property: big_rock
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - quarter
+      - tribo
+      - metrica
+  - type: table
+    name: Histórico
+    groupBy:
+      property: quarter
+      direction: DESC
+    order:
+      - file.name
+      - status
+      - quarter
+      - tribo
+      - big_rock
+      - metrica
+  - type: cards
+    name: Kanban
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - tribo
+      - metrica
+      - effort
