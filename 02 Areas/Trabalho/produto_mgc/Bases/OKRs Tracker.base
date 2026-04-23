@@ -1,0 +1,57 @@
+filters:
+  and:
+    - file.hasTag("okr")
+    - file.ext == "md"
+formulas:
+  progress_pct: if(target && resultado, ((resultado / target) * 100).round(0), "")
+properties:
+  quarter:
+    displayName: Quarter
+  tribo:
+    displayName: Tribo
+  tipo:
+    displayName: Tipo
+  objetivo:
+    displayName: Objetivo
+  score:
+    displayName: Score
+  formula.progress_pct:
+    displayName: Progresso %
+views:
+  - type: table
+    name: OKRs Ativos
+    filters:
+      not:
+        - status == "closed"
+    groupBy:
+      property: tribo
+      direction: ASC
+    order:
+      - file.name
+      - tribo
+      - objetivo
+      - score
+    summaries:
+      score: Average
+  - type: table
+    name: Por Quarter
+    groupBy:
+      property: quarter
+      direction: DESC
+    order:
+      - file.name
+      - tribo
+      - objetivo
+      - score
+    summaries:
+      score: Average
+  - type: cards
+    name: Cards
+    groupBy:
+      property: tribo
+      direction: ASC
+    order:
+      - file.name
+      - tribo
+      - objetivo
+      - score

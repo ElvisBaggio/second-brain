@@ -1,15 +1,24 @@
-# Segundo Cérebro — Sistema Híbrido GTD + Wiki
+# Second Brain — Vault Principal
 
 ## Quem sou
 
-Elvis — Product Manager / Liderança de Produto. Trabalho com times de produto, cloud, logística.
-Uso este vault como segundo cérebro: captura tudo, processa com GTD, sintetiza conhecimento com wiki mantido por LLM.
+Elvis — Product Manager / Liderança de Produto na MGC.
+Este é o vault principal do dia a dia: captura tudo aqui, opera trabalho e time, roteia conhecimento para o wiki.
+
+---
+
+## Vaults do sistema
+
+| Vault | Propósito |
+|---|---|
+| `second_brain` (este) | Vault principal — captura, trabalho, produto, time, pessoal |
+| `wiki` | Base de conhecimento sintetizado |
 
 ---
 
 ## Identity and Role (LLM)
 
-You are the co-maintainer of this second brain. You write and maintain all files inside `Wiki/`. You never modify files inside `Raw/`. The human owns everything else — GTD folders, Daily Notes, Templates. Your job is summarizing, cross-referencing, categorizing, filing, and bookkeeping inside the wiki.
+Co-mantenedor deste vault. Ajuda a processar Inbox, manter documentos de produto e time, rotear conhecimento para o wiki. Use `/para-wiki` para enviar conteúdo ao vault wiki.
 
 ---
 
@@ -17,261 +26,78 @@ You are the co-maintainer of this second brain. You write and maintain all files
 
 | Path | Owner | Rule |
 |---|---|---|
-| `00 Inbox/` | Human | GTD capture. LLM reads only. |
-| `01 Projects/` | Human | Active projects. LLM reads only unless asked. |
-| `02 Areas/` | Human | Ongoing responsibilities. LLM reads only unless asked. |
-| `03 Resources/` | Human | References and learning. LLM reads only unless asked. |
-| `04 Archive/` | Human | Closed/inactive. LLM reads only. |
-| `Raw/` | Human | Immutable source documents for the wiki. LLM reads only. Never create, edit, or delete files here. |
-| `Raw/assets/` | Human | Images from clipped articles. LLM reads only. |
-| `Wiki/` | LLM | LLM creates, updates, and maintains all files here. |
-| `Wiki/index.md` | LLM | Master index. Updated on every ingest. |
-| `Wiki/log.md` | LLM | Append-only log. Never edit past entries. |
-| `Daily Notes/` | Human | Daily journal. LLM reads only unless asked. |
-| `Templates/` | Human | Reusable templates. LLM reads only. |
-| `CLAUDE.md` | Shared | Human and LLM co-evolve this file over time. |
+| `00 Inbox/` | Human | Captura diária. LLM lê e ajuda a processar. |
+| `Daily Notes/` | Human | Journal diário. LLM lê se pedido. |
+| `Templates/` | Human | Templates reutilizáveis. LLM lê. |
+| `Excalidraw/` | Human | Diagramas. LLM lê. |
+| `02 Areas/Financeiro/` | Human | IPTU, impostos, contabilidade pessoal |
+| `02 Areas/Pessoal/` | Human | Saúde, família, compras, casa |
+| `02 Areas/Trabalho/analytics/` | Shared | Métricas, queries, schemas |
+| `02 Areas/Trabalho/governance/` | Shared | OKR health, cross-pillar log, planning calendar |
+| `02 Areas/Trabalho/product_execution/` | Shared | Pilares de produto |
+| `02 Areas/Trabalho/strategy/` | Shared | Visão, OKRs estratégicos |
+| `02 Areas/Trabalho/team_mgmt/` | Shared | 1:1s, carreira, hiring, rituais |
+| `02 Areas/Trabalho/produto_mgc/` | Shared | Processo de produto, iniciativas, OKRs |
+| `03 Resources/Viagens/` | Human | Roteiros, restaurantes, notas de viagem |
+| `assets/` | Human | Imagens e arquivos soltos |
 
 ---
 
-## GTD System
+## GTD
 
-### Philosophy
-- **Capture first, process later** — everything goes to Inbox
-- **GTD for action** — projects with defined outcome, areas for ongoing responsibilities
-- **Wiki for knowledge** — concepts and sources synthesized and cross-linked by LLM
+### Fluxo de captura
 
-### Structure
 ```
-00 Inbox/          ← quick capture, unprocessed
-01 Projects/       ← defined outcome + clear next action
-02 Areas/          ← ongoing responsibilities, no deadline
-  Trabalho/
-    1:1s/          ← one note per person, cumulative
-  Pessoal/
-  Financeiro/
-03 Resources/      ← references, learnings, articles
-  Produto/
-  Tech/
-  Liderança/
-  Viagens/
-04 Archive/        ← completed, inactive, or historical reference only
-Daily Notes/       ← YYYY-MM-DD.md — journal + review
-Templates/         ← reusable templates
+Qualquer coisa → 00 Inbox/
+
+Processar:
+├── É conhecimento a sintetizar?    → /para-wiki
+├── É de trabalho/produto/time?     → 02 Areas/Trabalho/
+├── É pessoal (saúde, família)?     → 02 Areas/Pessoal/ ou Financeiro/
+└── É lixo?                         → deletar
 ```
 
-### A note belongs in 01 Projects/ when:
-- Has a defined final outcome
-- Has at least one next action with `- [ ]`
-- Is currently active
+### Convenções
 
-### A note belongs in 02 Areas/ when:
-- Is an ongoing responsibility (e.g., 1:1 with someone, health, finances)
-- Has no defined end
+- `- [ ]` para próximas ações dentro das notas
+- `[[Link]]` para conectar notas relacionadas
+- Tags: `#projeto` `#area` `#1:1` `#someday` `#importante`
 
-### Conventions
-
-**Links**
-- Always use `[[Note Name]]` to link related notes
-- Each project note must link its related meeting and 1:1 notes
-- Daily Notes link the projects worked on that day
-
-**Tags**
-- `#projeto` — active projects
-- `#area` — areas of responsibility
-- `#recurso` — reference and learning
-- `#1:1` — 1:1 meetings
-- `#trabalho` `#pessoal` `#financeiro` — domain
-- `#someday` — someday/maybe backlog
-- `#importante` — high priority
-
-**Next actions**
-- Use `- [ ]` for tasks within notes
-- Project note must always have at least one open `- [ ]`
-
-**1:1 notes**
-- One note per person in `02 Areas/Trabalho/1:1s/`
-- Format: `1:1 - Nome.md`
-- Accumulates all meetings in chronological order
-
-### Weekly Review (every Friday)
-1. Process Inbox to zero
-2. Review `01 Projects/` — does every project have a next action?
-3. Review `02 Areas/` — did anything become a project?
-4. Create week's Daily Note with summary
-
----
-
-## Wiki System
-
-### Wiki Page Format
-
-Every wiki page (except `index.md` and `log.md`) must start with this YAML frontmatter:
-
-```yaml
----
-title: "Page title in Portuguese"
-type: conceito | entidade | fonte | output
-tags: []
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-sources: 0
----
-```
-
-- `type`: one of `conceito`, `entidade`, `fonte`, or `output`
-- `tags`: array of lowercase Portuguese tags, no spaces (use hyphens)
-- `sources`: number of raw sources that contributed to this page
-- After frontmatter, write the page body in Portuguese using markdown
-- Always end every wiki page with a `## Referências` section listing backlinks using `[[Page Name]]` syntax
-
-### Category Rules
-
-- You may create subdirectories inside `Wiki/conceitos/` and `Wiki/entidades/` as needed
-- Create a new category only when 3 or more pages clearly belong together
-- Name categories in lowercase Portuguese with hyphens (e.g., `Wiki/conceitos/inteligencia-artificial/`)
-- When creating a category, add a `_categoria.md` index file inside it
-
-### `Wiki/index.md` Format
-
-Read this first on every session. Structure:
-
-```markdown
-# Índice do Wiki
-
-_Atualizado em: YYYY-MM-DD — X fontes ingeridas — X páginas_
-
-## Conceitos
-- [[Page Title]] — one-line summary (type: conceito, tags: tag1, tag2)
-
-## Entidades
-- [[Page Title]] — one-line summary (type: entidade)
-
-## Fontes
-- [[Page Title]] — one-line summary, source date
-
-## Outputs
-- [[Page Title]] — question or analysis that generated this output
-```
-
-Rules: keep alphabetical within each section, one line per page, update after every ingest/query/lint.
-
-### `Wiki/log.md` Format
-
-Append-only. Never edit past entries:
-
-```markdown
-## [YYYY-MM-DD] operação | Título ou descrição curta
-
-- **Tipo:** ingestão | consulta | lint
-- **Arquivo(s) afetado(s):** list of wiki pages created or updated
-- **Resumo:** 1-3 sentences in Portuguese describing what was done
-```
+### Weekly Review (toda sexta)
+1. Processar Inbox a zero
+2. Rotear conhecimento pendente via `/para-wiki`
+3. Atualizar `02 Areas/Trabalho/governance/okr-health.md`
+4. Atualizar `02 Areas/Trabalho/governance/cross-pillar-log.md`
+5. Revisar `02 Areas/Trabalho/product_execution/` — cada pilar tem próxima ação?
 
 ---
 
 ## Session Startup Checklist
 
-At the start of every Claude Code session, before doing any work:
-
-1. Read `CLAUDE.md` (this file) in full
-2. Read `Wiki/index.md` to understand current wiki state
-3. Read the last 5 entries in `Wiki/log.md` to understand recent activity
-4. Confirm with the human what they want to do: ingest, query, lint, GTD processing, or other
+1. Ler `CLAUDE.md` em full
+2. Confirmar com o humano o que fazer
 
 ---
 
-## Ingest Workflow
+## Skills disponíveis
 
-When the human says "ingira", "processe" or drops a file in `Raw/` and asks you to process it:
+- `/para-wiki <conteúdo>` — envia para o vault wiki para ingestão
+- `/wiki <pergunta>` — consulta a base de conhecimento do vault wiki
 
-1. **Check for duplicates first** — scan the `## Fontes` section of `Wiki/index.md` (already in context). If a fonte page already references this Raw file, it has been ingested — inform the human and stop.
-2. Read the source file(s) from `Raw/`
-3. Briefly discuss key takeaways (2-3 bullet points) and confirm emphasis
-4. Create a `Wiki/fontes/` page summarizing the source (type: `fonte`)
-5. Identify all concepts and entities — check `Wiki/index.md` for existing pages
-6. For new concepts/entities: create their wiki pages
-7. For existing pages: integrate new information, update `updated` and `sources` fields
-8. A single source may touch 10-15 wiki pages — that is normal and expected
-9. Update `Wiki/index.md`
-10. Append entry to `Wiki/log.md`
-11. Run `git add -A && git commit -m "ingest: [source title]"`
+### gstack
 
----
+Use `/browse` para todo web browsing. Nunca usar `mcp__claude-in-chrome__*` diretamente.
 
-## Query Workflow
-
-When the human asks a question against the wiki:
-
-1. Read `Wiki/index.md` to identify relevant pages
-2. Read the relevant pages in full
-3. Synthesize an answer with citations to `[[Page Name]]`
-4. Ask: "Quer que eu arquive esta resposta no wiki?" — if yes, create page in `Wiki/outputs/` (type: `output`)
-5. If output is filed: update `Wiki/index.md` and append to `Wiki/log.md`
-6. If output is filed: run `git add -A && git commit -m "query: [short description]"`
-
-Output formats:
-- Markdown page (default)
-- Comparison table (markdown)
-- Marp slide deck (save as `.md` with Marp frontmatter)
-- Ask the human which format they prefer for complex queries
-
-**Marp frontmatter template:**
-```yaml
----
-marp: true
-theme: default
-paginate: true
----
-```
-
----
-
-## Lint Workflow
-
-When the human asks for "lint" or "saúde do wiki":
-
-1. Read all wiki pages and `Wiki/index.md`
-2. Check for: orphan pages, concepts without a page, contradictions, `sources: 0` pages, missing `## Referências`, index/file mismatches
-3. Fix what you can autonomously; ask before judgment calls
-4. Suggest 3-5 new questions or sources worth finding
-5. Append lint entry to `Wiki/log.md`
-6. Commit: `git commit -m "lint: [date] health check"`
-
----
-
-## YouTube Ingestion (via MCP)
-
-When the human shares a YouTube URL:
-
-1. Use the YouTube MCP tool to fetch the transcript
-2. Save as `Raw/[YYYY-MM-DD]-[video-title-slug].md` with frontmatter:
-   ```yaml
-   ---
-   title: "Video title"
-   url: "https://youtube.com/..."
-   date: YYYY-MM-DD
-   type: video-transcript
-   ---
-   ```
-3. Then follow the standard ingest workflow
+Skills: `/office-hours`, `/plan-ceo-review`, `/plan-eng-review`, `/plan-design-review`, `/design-consultation`, `/design-shotgun`, `/design-html`, `/review`, `/ship`, `/land-and-deploy`, `/canary`, `/benchmark`, `/browse`, `/connect-chrome`, `/qa`, `/qa-only`, `/design-review`, `/setup-browser-cookies`, `/setup-deploy`, `/retro`, `/investigate`, `/document-release`, `/codex`, `/cso`, `/autoplan`, `/plan-devex-review`, `/devex-review`, `/careful`, `/freeze`, `/guard`, `/unfreeze`, `/gstack-upgrade`, `/learn`
 
 ---
 
 ## Git Commit Conventions
 
 ```
-ingest: [source title or slug]
-query: [short description of question]
-lint: [date] health check
-wiki: [description of manual wiki improvement]
-gtd: [GTD processing or reorganization]
-chore: [maintenance task]
+inbox: [processamento do inbox]
+work: [atualização de trabalho/produto]
+people: [gestão de pessoas]
+gtd: [reorganização GTD]
+chore: [manutenção]
 ```
-
-Always commit after ingest, after filing a query output, and after lint.
-
----
-
-## Active Projects
-
-- [[Produto MGC]] — principal projeto de produto

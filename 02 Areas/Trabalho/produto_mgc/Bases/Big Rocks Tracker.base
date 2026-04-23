@@ -1,0 +1,67 @@
+filters:
+  and:
+    - file.hasTag("bigrock")
+    - file.ext == "md"
+formulas:
+  days_active: (now() - file.ctime).days.round(0)
+  has_kill_criteria: if(kill_criteria, "✅", "❌")
+properties:
+  status:
+    displayName: Status
+  tribo:
+    displayName: Tribo
+  ano:
+    displayName: Ano
+  metrica_primaria:
+    displayName: Métrica Primária
+  baseline:
+    displayName: Baseline
+  target:
+    displayName: Target
+  pm_owner:
+    displayName: PM Owner
+  formula.days_active:
+    displayName: Dias Ativa
+  formula.has_kill_criteria:
+    displayName: Kill Criteria?
+views:
+  - type: table
+    name: Big Rocks Ativas
+    filters:
+      or:
+        - status == "ativa"
+        - status == "draft"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - tribo
+      - metrica_primaria
+      - baseline
+      - target
+      - pm_owner
+      - formula.days_active
+  - type: table
+    name: Todas as Big Rocks
+    groupBy:
+      property: ano
+      direction: DESC
+    order:
+      - file.name
+      - status
+      - tribo
+      - ano
+      - pm_owner
+  - type: cards
+    name: Cards
+    filters:
+      or:
+        - status == "ativa"
+        - status == "draft"
+    order:
+      - file.name
+      - status
+      - tribo
+      - metrica_primaria
